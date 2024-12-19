@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-link-to-qrcode"
+version = "0.1.0"
+description = ""
+authors = ["Afonso Caboz <afonso.caboz@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+qrcode = "^8.0"
+pillow = "^11.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
